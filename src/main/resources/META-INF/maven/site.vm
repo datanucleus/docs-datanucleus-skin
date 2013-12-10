@@ -383,11 +383,7 @@ function loadPage(list)
     <li><a href="${relativePath}/project/references.html">References</a></li>
     <li><a href="${relativePath}/project/contribute.html">Contribute</a></li>
     <li><a href="${relativePath}/project/donations.html">Donations</a></li>
-    <li><a class="dir" href="${relativePath}/project/problem_reporting.html">Problem Reporting</a>
-    <ul>
-      <li><a href="${relativePath}/project/problem_jdo_testcase.html">JDO Testcase</a></li>
-      <li><a href="${relativePath}/project/problem_jpa_testcase.html">JPA Testcase</a></li>
-    </ul></li>
+    <li><a href="${relativePath}/project/problem_reporting.html">Problem Reporting</a></li>
     <li><a href="${relativePath}/project/support.html">Support</a></li>
     <li><a href="${relativePath}/project/acknowledgements.html">Acknowledgements</a></li>
     <li><a href="${relativePath}/project/thirdparty.html">Third Party Tools</a></li>
