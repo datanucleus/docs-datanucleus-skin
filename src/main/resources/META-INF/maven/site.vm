@@ -428,12 +428,11 @@ function loadPage(list)
       <ul>
         <li><a href="${relativePath}/plugins/store.types.jodatime.html">store.types.jodatime</a></li>
         <li><a href="${relativePath}/plugins/store.types.guava.html">store.types.guava</a></li>
-        <li><a href="${relativePath}/plugins/store.types.awtgeom.html">store.types.awtgeom</a></li>
-        <li><a href="${relativePath}/plugins/store.types.spatial.html">store.types.spatial</a></li>
+        <li><a href="${relativePath}/plugins/store.types.spatial.html">store.types.geospatial</a></li>
       </ul></li>
       <li><span class="dir">Tools</span>
       <ul>
-        <li><a href="${relativePath}/plugins/maven2.html">maven2</a></li>
+        <li><a href="${relativePath}/plugins/maven2.html">maven</a></li>
         <li><a href="${relativePath}/plugins/ide.eclipse.html">eclipse</a></li>
       </ul></li>
       <li><span class="dir">Inactive/Unsupported</span>
@@ -443,6 +442,7 @@ function loadPage(list)
         <li><a href="${relativePath}/plugins/maven1.html">maven1</a></li>
         <li><a href="${relativePath}/plugins/store.db4o.html">store.db4o</a></li>
         <li><a href="${relativePath}/plugins/store.types.javaxtime.html">store.types.javax.time</a></li>
+        <li><a href="${relativePath}/plugins/store.types.awtgeom.html">store.types.awtgeom</a></li>
         <li><a href="${relativePath}/plugins/store.rdbms_mapping_xmltypeoracle.html">store.rdbms.mapping.xmltypeoracle</a></li>
         <li><a href="${relativePath}/plugins/store.rdbms.connectionpool.html">store.rdbms.connectionpool</a></li>
         <li><a href="${relativePath}/plugins/management.html">management</a></li>
@@ -452,8 +452,7 @@ function loadPage(list)
   <li><a class="dir" href="${relativePath}/development/index.html">Development</a>
   <ul>
     <li><a href="${relativePath}/development/scr.html">Source Code Repo</a></li>
-    <li><a href="${relativePath}/development/building_eclipse.html">Building with Eclipse</a></li>
-    <li><a href="${relativePath}/development/building_maven2.html">Building with Maven</a></li>
+    <li><a href="${relativePath}/development/build.html">Building DataNucleus</a></li>
     <li><a href="${relativePath}/development/coding_standards.html">Coding Standards</a></li>
     <li><a href="${relativePath}/development/documentation.html">Documentation</a></li>
     <li><a class="dir" href="${relativePath}/extensions/plugins.html">Plugin Points</a>
