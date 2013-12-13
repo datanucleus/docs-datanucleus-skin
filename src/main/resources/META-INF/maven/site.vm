@@ -359,7 +359,7 @@ function loadPage(list)
             <option value="http://www.datanucleus.org/project/problem_reporting.html">Problem Reporting</option>
             <option value="http://www.datanucleus.org/project/download.html">Download</option>
             <option value="${relativePath}/index.html">Access Platform</option>
-            <option value="${relativePath}/development/scr.html">Source Code</option>
+            <option value="${relativePath}/development/sourcecode.html">Source Code</option>
             </select>
           </form>
           </td>
@@ -451,10 +451,8 @@ function loadPage(list)
   </ul></li>
   <li><a class="dir" href="${relativePath}/development/index.html">Development</a>
   <ul>
-    <li><a href="${relativePath}/development/scr.html">Source Code Repo</a></li>
-    <li><a href="${relativePath}/development/build.html">Building DataNucleus</a></li>
+    <li><a href="${relativePath}/development/sourcecode.html">Source Code</a></li>
     <li><a href="${relativePath}/development/coding_standards.html">Coding Standards</a></li>
-    <li><a href="${relativePath}/development/documentation.html">Documentation</a></li>
     <li><a class="dir" href="${relativePath}/extensions/plugins.html">Plugin Points</a>
     <ul>
       <li><a href="${relativePath}/extensions/java_types.html">Java Types</a></li>
