@@ -402,7 +402,7 @@ function loadPage(list)
       <ul>
         <li><a class="dir" href="${relativePath}/plugins/api.jdo.html">api.jdo</a>
         <ul>
-          <li><a href="${relativePath}/plugins/jdo.connector.html">jdo.connector</a></li>
+          <li><a href="${relativePath}/plugins/jdo.jca.html">jdo.jca</a></li>
           <li><a href="${relativePath}/plugins/jdo.query.html">jdo.query</a></li>
         </ul></li>
         <li><a class="dir" href="${relativePath}/plugins/api.jpa.html">api.jpa</a>
