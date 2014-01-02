@@ -428,7 +428,7 @@ function loadPage(list)
       <ul>
         <li><a href="${relativePath}/plugins/store.types.jodatime.html">store.types.jodatime</a></li>
         <li><a href="${relativePath}/plugins/store.types.guava.html">store.types.guava</a></li>
-        <li><a href="${relativePath}/plugins/store.types.spatial.html">store.types.geospatial</a></li>
+        <li><a href="${relativePath}/plugins/store.types.geospatial.html">store.types.geospatial</a></li>
       </ul></li>
       <li><span class="dir">Tools</span>
       <ul>
@@ -445,6 +445,7 @@ function loadPage(list)
         <li><a href="${relativePath}/plugins/store.types.awtgeom.html">store.types.awtgeom</a></li>
         <li><a href="${relativePath}/plugins/store.rdbms_mapping_xmltypeoracle.html">store.rdbms.mapping.xmltypeoracle</a></li>
         <li><a href="${relativePath}/plugins/store.rdbms.connectionpool.html">store.rdbms.connectionpool</a></li>
+        <li><a href="${relativePath}/plugins/store.types.spatial.html">store.types.spatial</a></li>
         <li><a href="${relativePath}/plugins/management.html">management</a></li>
       </ul></li>
     </ul></li>
