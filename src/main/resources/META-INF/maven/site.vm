@@ -373,7 +373,6 @@ function loadPage(list)
   <ul>
     <li><a href="${relativePath}/project/why.html">Why Use DataNucleus?</a></li>
     <li><a href="${relativePath}/project/usage.html">Used By</a></li>
-    <li><a href="${relativePath}/project/download.html">Download</a></li>
     <li><a href="${relativePath}/project/publicity.html">Publicity</a></li>
     <li><a href="${relativePath}/news/index.html">News</a></li>
     <li><a href="${relativePath}/news/events.html">Events</a></li>
@@ -388,7 +387,6 @@ function loadPage(list)
     <li><a href="${relativePath}/project/acknowledgements.html">Acknowledgements</a></li>
     <li><a href="${relativePath}/project/thirdparty.html">Third Party Tools</a></li>
   </ul></li>
-  <li><a href="${relativePath}/products/index.html">Products</a></li>
   <li><a class="dir" href="${relativePath}/development/index.html">Development</a>
   <ul>
     <li><a href="${relativePath}/development/sourcecode.html">Source Code</a></li>
