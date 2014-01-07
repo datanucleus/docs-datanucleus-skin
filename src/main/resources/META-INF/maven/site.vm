@@ -371,9 +371,7 @@ function loadPage(list)
 <ul id="nav" class="dropdown dropdown-horizontal">
   <li><a class="dir" href="${relativePath}/index.html">DataNucleus</a>
   <ul>
-    <li><a href="${relativePath}/project/why.html">Why Use DataNucleus?</a></li>
-    <li><a href="${relativePath}/project/usage.html">Used By</a></li>
-    <li><a href="${relativePath}/project/publicity.html">Publicity</a></li>
+    <li><a href="${relativePath}/project/usage.html">Why Use DataNucleus?</a></li>
     <li><a href="${relativePath}/news/index.html">News</a></li>
     <li><a href="${relativePath}/news/events.html">Events</a></li>
     <li><a href="http://www.datanucleus.org/servlet/wiki/display/ENG/Release+and+Plans">Release Schedule</a></li>
