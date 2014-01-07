@@ -388,68 +388,7 @@ function loadPage(list)
     <li><a href="${relativePath}/project/acknowledgements.html">Acknowledgements</a></li>
     <li><a href="${relativePath}/project/thirdparty.html">Third Party Tools</a></li>
   </ul></li>
-  <li><a class="dir" href="${relativePath}/products/index.html">Products</a>
-  <ul>
-    <li><a class="dir" href="${relativePath}/products/accessplatform.html">AccessPlatform</a>
-    <ul>
-      <li><a href="${relativePath}/products/accessplatform_features.html">Feature Matrix</a></li>
-    </ul></li>
-    <li><a class="dir" href="${relativePath}/plugins/index.html">Plugins</a>
-    <ul>
-      <li><a href="http://github.com/datanucleus/datanucleus-core">core</a></li>
-      <li><a href="http://github.com/datanucleus/datanucleus-cache">cache</a></li>
-      <li><span class="dir">APIs</span>
-      <ul>
-        <li><a class="dir" href="http://github.com/datanucleus/datanucleus-api-jdo">api.jdo</a>
-        <ul>
-          <li><a href="http://github.com/datanucleus/datanucleus-jdo-jca">jdo.jca</a></li>
-          <li><a href="http://github.com/datanucleus/datanucleus-jdo-query">jdo.query</a></li>
-        </ul></li>
-        <li><a class="dir" href="http://github.com/datanucleus/datanucleus-api-jpa">api.jpa</a>
-        <ul>
-          <li><a href="http://github.com/datanucleus/datanucleus-jpa-query">jpa.query</a></li>
-        </ul></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-api-rest">api.rest</a></li>
-      </ul></li>
-      <li><span class="dir">Datastores</span>
-      <ul>
-        <li><a href="http://github.com/datanucleus/datanucleus-rdbms">store.rdbms</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-odf">store.odf</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-excel">store.excel</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-xml">store.xml</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-hbase">store.hbase</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-mongodb">store.mongodb</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-neo4j">store.neo4j</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-json">store.json</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-ldap">store.ldap</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-neodatis">store.neodatis</a></li>
-      </ul></li>
-      <li><span class="dir">Java Types</span>
-      <ul>
-        <li><a href="http://github.com/datanucleus/datanucleus-jodatime">store.types.jodatime</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-guava">store.types.guava</a></li>
-        <li><a href="http://github.com/datanucleus/datanucleus-geospatial">store.types.geospatial</a></li>
-      </ul></li>
-      <li><span class="dir">Tools</span>
-      <ul>
-        <li><a href="${relativePath}/plugins/maven2.html">maven</a></li>
-        <li><a href="${relativePath}/plugins/ide.eclipse.html">eclipse</a></li>
-      </ul></li>
-      <li><span class="dir">Inactive/Unsupported</span>
-      <ul>
-        <li><a href="${relativePath}/plugins/enhancer.html">enhancer</a></li>
-        <li><a href="${relativePath}/plugins/java5.html">java5</a></li>
-        <li><a href="${relativePath}/plugins/maven1.html">maven1</a></li>
-        <li><a href="${relativePath}/plugins/store.db4o.html">store.db4o</a></li>
-        <li><a href="${relativePath}/plugins/store.types.javaxtime.html">store.types.javax.time</a></li>
-        <li><a href="${relativePath}/plugins/store.types.awtgeom.html">store.types.awtgeom</a></li>
-        <li><a href="${relativePath}/plugins/store.rdbms_mapping_xmltypeoracle.html">store.rdbms.mapping.xmltypeoracle</a></li>
-        <li><a href="${relativePath}/plugins/store.rdbms.connectionpool.html">store.rdbms.connectionpool</a></li>
-        <li><a href="${relativePath}/plugins/store.types.spatial.html">store.types.spatial</a></li>
-        <li><a href="${relativePath}/plugins/management.html">management</a></li>
-      </ul></li>
-    </ul></li>
-  </ul></li>
+  <li><a href="${relativePath}/products/index.html">Products</a></li>
   <li><a class="dir" href="${relativePath}/development/index.html">Development</a>
   <ul>
     <li><a href="${relativePath}/development/sourcecode.html">Source Code</a></li>
