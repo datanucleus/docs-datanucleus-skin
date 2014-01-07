@@ -442,7 +442,6 @@ function loadPage(list)
     </ul></li>
     <li><a href="${relativePath}/development/charter.html">Project Charter</a></li>
   </ul></li>
-  <li><a href="${relativePath}/services/index.html">Services</a></li>
 </ul>
           </td>
         </tr>
