@@ -389,45 +389,7 @@ function loadPage(list)
   <ul>
     <li><a href="${relativePath}/development/sourcecode.html">Source Code</a></li>
     <li><a href="${relativePath}/development/coding_standards.html">Coding Standards</a></li>
-    <li><a class="dir" href="${relativePath}/extensions/plugins.html">Plugin Points</a>
-    <ul>
-      <li><a href="${relativePath}/extensions/java_types.html">Java Types</a></li>
-      <li><a href="${relativePath}/extensions/type_converter.html">Type Converter</a></li>
-      <li><a href="${relativePath}/extensions/persistence_properties.html">Persistence Properties</a></li>
-      <li><a href="${relativePath}/extensions/store_manager.html">Store Manager</a></li>
-      <li><a href="${relativePath}/extensions/connection_factory.html">ConnectionFactory</a></li>
-      <li><a href="${relativePath}/extensions/autostart_mechanism.html">AutoStart Mechanisms</a></li>
-      <li><a href="${relativePath}/extensions/classloader_resolver.html">ClassLoader Resolvers</a></li>
-      <li><a href="${relativePath}/extensions/datastoreidentity.html">Datastore Identity</a></li>
-      <li><a href="${relativePath}/extensions/identity_string_translator.html>Identity String Translator</a></li>
-      <li><a href="${relativePath}/extensions/identity_key_translator.html">Identity Key Translator</a></li>
-      <li><span class="dir">RDBMS Plugin Points</span>
-      <ul>
-        <li><a href="${relativePath}/extensions/rdbms_java_types.html">Java Type Mapping</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_datastore_types.html">Datastore Mapping</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_datastore_adapter.html">Datastore Adapter</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_connection_pool.html">ConnectionPool</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_connection_provider.html">ConnectionProvider</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_identifier_factory.html">Identifier Factories</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_sql_methods.html">SQL Methods</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_sql_expressions.html">SQL Expressions</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_sql_operations.html">SQL Operations</a></li>
-        <li><a href="${relativePath}/extensions/rdbms_sql_table_namer.html">SQL Table Namer</a></li>
-      </ul></li>
-      <li><a href="${relativePath}/extensions/annotations.html">Annotations</a></li>
-      <li><a href="${relativePath}/extensions/class_annotation_handler.html">Class Annotations</a></li>
-      <li><a href="${relativePath}/extensions/member_annotation_handler.html">Member Annotations</a></li>
-      <li><a href="${relativePath}/extensions/metadata_handler.html">MetaData Handler</a></li>
-      <li><a href="${relativePath}/extensions/metadata_entityresolver.html">MetaData Entity Resolver</a></li>
-      <li><a href="${relativePath}/extensions/value_generator.html">Value Generators</a></li>
-      <li><a href="${relativePath}/extensions/level1_cache.html">Level 1 Cache</a></li>
-      <li><a href="${relativePath}/extensions/level2_cache.html">Level 2 Cache</a></li>
-      <li><a href="${relativePath}/extensions/query_cache.html">Query Cache</a></li>
-      <li><a href="${relativePath}/extensions/store_query_query.html">Query Language</a></li>
-      <li><a href="${relativePath}/extensions/store_query_methods.html">Query Methods</a></li>
-      <li><a href="${relativePath}/extensions/management_server.html">Management Server</a></li>
-      <li><a href="${relativePath}/extensions/jta_locator.html">JTA Locator</a></li>
-    </ul></li>
+    <li><a href="${relativePath}/development/plugin_points.html">Plugin Points</a></li>
     <li><a class="dir" href="${relativePath}/development/test/unittests.html"/>Testing</a>
     <ul>
       <li><a href="${relativePath}/development/test/jdo_tck.html">JDO TCK</a></li>
