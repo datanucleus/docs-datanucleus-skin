@@ -358,7 +358,7 @@ function loadPage(list)
             <option value="http://www.datanucleus.org/project/donations.html">Donate</option>
             <option value="http://www.datanucleus.org/project/problem_reporting.html">Problem Reporting</option>
             <option value="http://www.datanucleus.org/project/download.html">Download</option>
-            <option value="${relativePath}/index.html">Access Platform</option>
+            <option value="http://www.datanucleus.org/producs/index.html#AccessPlatform">Access Platform</option>
             <option value="${relativePath}/development/sourcecode.html">Source Code</option>
             </select>
           </form>
