@@ -358,7 +358,7 @@ function loadPage(list)
             <option value="http://www.datanucleus.org/project/donations.html">Donate</option>
             <option value="http://www.datanucleus.org/project/problem_reporting.html">Problem Reporting</option>
             <option value="http://www.datanucleus.org/project/download.html">Download</option>
-            <option value="http://www.datanucleus.org/producs/index.html#AccessPlatform">Access Platform</option>
+            <option value="http://www.datanucleus.org/products/index.html#AccessPlatform">Access Platform</option>
             <option value="${relativePath}/development/sourcecode.html">Source Code</option>
             </select>
           </form>
@@ -376,10 +376,8 @@ function loadPage(list)
     <li><a href="${relativePath}/project/publicity.html">Publicity</a></li>
     <li><a href="${relativePath}/news/index.html">News</a></li>
     <li><a href="${relativePath}/news/events.html">Events</a></li>
-    <li><a href="http://datanucleus.blogspot.com/">Blog</a></li>
     <li><a href="http://www.datanucleus.org/servlet/wiki/display/ENG/Release+and+Plans">Release Schedule</a></li>
     <li><a href="${relativePath}/project/team.html">Team</a></li>
-    <li><a href="${relativePath}/project/references.html">References</a></li>
     <li><a href="${relativePath}/project/contribute.html">Contribute</a></li>
     <li><a href="${relativePath}/project/donations.html">Donations</a></li>
     <li><a href="${relativePath}/project/problem_reporting.html">Problem Reporting</a></li>
