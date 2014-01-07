@@ -389,7 +389,7 @@ function loadPage(list)
   <ul>
     <li><a href="${relativePath}/development/sourcecode.html">Source Code</a></li>
     <li><a href="${relativePath}/development/coding_standards.html">Coding Standards</a></li>
-    <li><a href="${relativePath}/development/plugin_points.html">Plugin Points</a></li>
+    <li><a href="${relativePath}/development/extensions/index.html">Plugin Points</a></li>
     <li><a class="dir" href="${relativePath}/development/test/unittests.html"/>Testing</a>
     <ul>
       <li><a href="${relativePath}/development/test/jdo_tck.html">JDO TCK</a></li>
