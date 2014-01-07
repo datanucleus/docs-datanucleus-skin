@@ -396,39 +396,39 @@ function loadPage(list)
     </ul></li>
     <li><a class="dir" href="${relativePath}/plugins/index.html">Plugins</a>
     <ul>
-      <li><a href="${relativePath}/plugins/core.html">core</a></li>
-      <li><a href="${relativePath}/plugins/cache.html">cache</a></li>
+      <li><a href="http://github.com/datanucleus/datanucleus-core">core</a></li>
+      <li><a href="http://github.com/datanucleus/datanucleus-cache">cache</a></li>
       <li><span class="dir">APIs</span>
       <ul>
-        <li><a class="dir" href="${relativePath}/plugins/api.jdo.html">api.jdo</a>
+        <li><a class="dir" href="http://github.com/datanucleus/datanucleus-api-jdo">api.jdo</a>
         <ul>
-          <li><a href="${relativePath}/plugins/jdo.jca.html">jdo.jca</a></li>
-          <li><a href="${relativePath}/plugins/jdo.query.html">jdo.query</a></li>
+          <li><a href="http://github.com/datanucleus/datanucleus-jdo-jca">jdo.jca</a></li>
+          <li><a href="http://github.com/datanucleus/datanucleus-jdo-query">jdo.query</a></li>
         </ul></li>
-        <li><a class="dir" href="${relativePath}/plugins/api.jpa.html">api.jpa</a>
+        <li><a class="dir" href="http://github.com/datanucleus/datanucleus-api-jpa">api.jpa</a>
         <ul>
-          <li><a href="${relativePath}/plugins/jpa.query.html">jpa.query</a></li>
+          <li><a href="http://github.com/datanucleus/datanucleus-jpa-query">jpa.query</a></li>
         </ul></li>
-        <li><a href="${relativePath}/plugins/api.rest.html">api.rest</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-api-rest">api.rest</a></li>
       </ul></li>
       <li><span class="dir">Datastores</span>
       <ul>
-        <li><a href="${relativePath}/plugins/store.rdbms.html">store.rdbms</a></li>
-        <li><a href="${relativePath}/plugins/store.odf.html">store.odf</a></li>
-        <li><a href="${relativePath}/plugins/store.excel.html">store.excel</a></li>
-        <li><a href="${relativePath}/plugins/store_xml.html">store.xml</a></li>
-        <li><a href="${relativePath}/plugins/store.hbase.html">store.hbase</a></li>
-        <li><a href="${relativePath}/plugins/store.mongodb.html">store.mongodb</a></li>
-        <li><a href="${relativePath}/plugins/store.neo4j.html">store.neo4j</a></li>
-        <li><a href="${relativePath}/plugins/store.json.html">store.json</a></li>
-        <li><a href="${relativePath}/plugins/store.ldap.html">store.ldap</a></li>
-        <li><a href="${relativePath}/plugins/store.neodatis.html">store.neodatis</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-rdbms">store.rdbms</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-odf">store.odf</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-excel">store.excel</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-xml">store.xml</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-hbase">store.hbase</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-mongodb">store.mongodb</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-neo4j">store.neo4j</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-json">store.json</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-ldap">store.ldap</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-neodatis">store.neodatis</a></li>
       </ul></li>
       <li><span class="dir">Java Types</span>
       <ul>
-        <li><a href="${relativePath}/plugins/store.types.jodatime.html">store.types.jodatime</a></li>
-        <li><a href="${relativePath}/plugins/store.types.guava.html">store.types.guava</a></li>
-        <li><a href="${relativePath}/plugins/store.types.geospatial.html">store.types.geospatial</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-jodatime">store.types.jodatime</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-guava">store.types.guava</a></li>
+        <li><a href="http://github.com/datanucleus/datanucleus-geospatial">store.types.geospatial</a></li>
       </ul></li>
       <li><span class="dir">Tools</span>
       <ul>
