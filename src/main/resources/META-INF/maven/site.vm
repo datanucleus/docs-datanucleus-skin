@@ -326,7 +326,7 @@ function loadPage(list)
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr border="1">
           <td background="${relativePath}/images/menu_bg.gif" border="1">
-<div align="center"><a href="http://www.datanucleus.org/index.html"><img src="${relativePath}/images/menu_home.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/products/index.html"><img src="${relativePath}/images/menu_documentation.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/project/download.html"><img src="${relativePath}/images/menu_download.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://www.datanucleus.org/support.html"><img src="${relativePath}/images/menu_support.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://forum.datanucleus.org"><img src="${relativePath}/images/menu_forum.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://issues.datanucleus.org"><img src="${relativePath}/images/menu_issues.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://wiki.datanucleus.org"><img src="${relativePath}/images/menu_wiki.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="https://github.com/datanucleus"><img src="${relativePath}/images/menu_sourcecode.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://datanucleus.blogspot.com"><img src="${relativePath}/images/menu_blog.gif" border="0"/></a>
+<div align="center"><a href="http://www.datanucleus.org/index.html"><img src="${relativePath}/images/menu_home.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/documentation/index.html"><img src="${relativePath}/images/menu_documentation.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/project/download.html"><img src="${relativePath}/images/menu_download.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://www.datanucleus.org/support.html"><img src="${relativePath}/images/menu_support.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://forum.datanucleus.org"><img src="${relativePath}/images/menu_forum.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://issues.datanucleus.org"><img src="${relativePath}/images/menu_issues.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://wiki.datanucleus.org"><img src="${relativePath}/images/menu_wiki.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="https://github.com/datanucleus"><img src="${relativePath}/images/menu_sourcecode.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://datanucleus.blogspot.com"><img src="${relativePath}/images/menu_blog.gif" border="0"/></a>
             </div>
           </td>
         </tr>
@@ -355,51 +355,13 @@ function loadPage(list)
             <select name="quickLink" onChange="loadPage(this.form.elements[0])" target="_parent._top" onmouseclick="this.focus()" method="POST">
             <option value="http://www.datanucleus.org"></option>
             <option value="http://www.datanucleus.org/support.html">Support</option>
-            <option value="http://www.datanucleus.org/project/donations.html">Donate</option>
-            <option value="http://www.datanucleus.org/project/problem_reporting.html">Problem Reporting</option>
+            <option value="http://www.datanucleus.org/documentation/donations.html">Donate</option>
+            <option value="http://www.datanucleus.org/documentation/problem_reporting.html">Problem Reporting</option>
             <option value="http://www.datanucleus.org/project/download.html">Download</option>
-            <option value="http://www.datanucleus.org/products/index.html#AccessPlatform">Access Platform</option>
-            <option value="${relativePath}/development/sourcecode.html">Source Code</option>
+            <option value="http://www.datanucleus.org/documentation/products/index.html#AccessPlatform">Access Platform</option>
+            <option value="http://www.datanucleus.org/documentation/development/sourcecode.html">Source Code</option>
             </select>
           </form>
-          </td>
-        </tr>
-      </table>
-      <table border="0" cellspacing="0" cellpadding="0" width="100%" height="25">
-        <tr>
-          <td valign="middle" nowrap="true" width="100%">
-<ul id="nav" class="dropdown dropdown-horizontal">
-  <li><a class="dir" href="${relativePath}/index.html">DataNucleus</a>
-  <ul>
-    <li><a href="${relativePath}/project/usage.html">Why Use DataNucleus?</a></li>
-    <li><a href="${relativePath}/news/index.html">News</a></li>
-    <li><a href="${relativePath}/news/events.html">Events</a></li>
-    <li><a href="http://www.datanucleus.org/servlet/wiki/display/ENG/Release+and+Plans">Release Schedule</a></li>
-    <li><a href="${relativePath}/project/team.html">Team</a></li>
-    <li><a href="${relativePath}/project/contribute.html">Contribute</a></li>
-    <li><a href="${relativePath}/project/donations.html">Donations</a></li>
-    <li><a href="${relativePath}/project/problem_reporting.html">Problem Reporting</a></li>
-    <li><a href="${relativePath}/project/acknowledgements.html">Acknowledgements</a></li>
-    <li><a href="${relativePath}/project/thirdparty.html">Third Party Tools</a></li>
-  </ul></li>
-  <li><a class="dir" href="${relativePath}/development/index.html">Development</a>
-  <ul>
-    <li><a href="${relativePath}/development/sourcecode.html">Source Code</a></li>
-    <li><a href="${relativePath}/development/coding_standards.html">Coding Standards</a></li>
-    <li><a href="${relativePath}/extensions/index.html">Plugin Points</a></li>
-    <li><a class="dir" href="${relativePath}/development/test/unittests.html"/>Testing</a>
-    <ul>
-      <li><a href="${relativePath}/development/test/jdo_tck.html">JDO TCK</a></li>
-      <li><a href="${relativePath}/development/test/jpa_tck.html">JPA TCK</a></li>
-      <li><a href="${relativePath}/development/test/test.jdo.general.html">test.jdo.general</a></li>
-      <li><a href="${relativePath}/development/test/test.jdo.identity.html">test.jdo.identity</a></li>
-      <li><a href="${relativePath}/development/test/test.jdo.spatial.html">test.jdo.spatial</a></li>
-      <li><a href="${relativePath}/development/test/test.jdo.jta.html">test.jdo.jta</a></li>
-      <li><a href="${relativePath}/development/test/test.jpa.general.html">test.jpa.general</a></li>
-    </ul></li>
-    <li><a href="${relativePath}/development/charter.html">Project Charter</a></li>
-  </ul></li>
-</ul>
           </td>
         </tr>
       </table>

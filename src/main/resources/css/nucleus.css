@@ -154,10 +154,22 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
     color: #000;
 }
 
+h1 
+{
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  font: lucida grande, geneva, verdana;
+  background-color: #fff;
+  border-bottom: 2px solid #20cd82;
+  padding: 4px 4px 4px 6px;
+  color: #20cd82;
+}
+
 h2 
 {
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   font: lucida grande, geneva, verdana;
   background-color: #fff;
