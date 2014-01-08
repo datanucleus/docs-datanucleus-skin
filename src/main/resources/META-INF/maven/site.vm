@@ -358,7 +358,8 @@ function loadPage(list)
             <option value="http://www.datanucleus.org/documentation/donations.html">Donate</option>
             <option value="http://www.datanucleus.org/documentation/problem_reporting.html">Problem Reporting</option>
             <option value="http://www.datanucleus.org/project/download.html">Download</option>
-            <option value="http://www.datanucleus.org/documentation/products/index.html#AccessPlatform">Access Platform</option>
+            <option value="http://www.datanucleus.org/documentation/products/accessplatform.html">DataNucleus AccessPlatform</option>
+            <option value="http://www.datanucleus.org/documentation/products/plugins.html">DataNucleus Plugins</option>
             <option value="http://www.datanucleus.org/documentation/development/sourcecode.html">Source Code</option>
             </select>
           </form>
