@@ -278,7 +278,6 @@
   <head>
     <title>$title</title>
     <link rel="stylesheet" href="${relativePath}/css/nucleus.css" type="text/css"/>
-    <link rel="stylesheet" href="${relativePath}/css/dropdown.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="$relativePath/css/print.css" type="text/css" media="print"/>
     <meta name="keywords" content="DataNucleus, Java, Persistence, JDO, JPA, ORM, RDBMS, XML, LDAP, AppEngine, BigTable, HBase, MongoDB, Neo4j"/>
     <meta http-equiv="Content-Type" content="text/html; charset=${outputEncoding}"/>
@@ -326,7 +325,7 @@ function loadPage(list)
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr border="1">
           <td background="${relativePath}/images/menu_bg.gif" border="1">
-<div align="center"><a href="http://www.datanucleus.org/index.html"><img src="${relativePath}/images/menu_home.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/documentation/index.html"><img src="${relativePath}/images/menu_documentation.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/project/download.html"><img src="${relativePath}/images/menu_download.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://www.datanucleus.org/support.html"><img src="${relativePath}/images/menu_support.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://forum.datanucleus.org"><img src="${relativePath}/images/menu_forum.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://issues.datanucleus.org"><img src="${relativePath}/images/menu_issues.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://wiki.datanucleus.org"><img src="${relativePath}/images/menu_wiki.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="https://github.com/datanucleus"><img src="${relativePath}/images/menu_sourcecode.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://datanucleus.blogspot.com"><img src="${relativePath}/images/menu_blog.gif" border="0"/></a>
+<div align="center"><a href="http://www.datanucleus.org/index.html"><img src="${relativePath}/images/menu_home.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/documentation/index.html"><img src="${relativePath}/images/menu_documentation.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://www.datanucleus.org/download.html"><img src="${relativePath}/images/menu_download.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://www.datanucleus.org/support.html"><img src="${relativePath}/images/menu_support.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://forum.datanucleus.org"><img src="${relativePath}/images/menu_forum.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24" /><a href="http://issues.datanucleus.org"><img src="${relativePath}/images/menu_issues.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://wiki.datanucleus.org"><img src="${relativePath}/images/menu_wiki.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="https://github.com/datanucleus"><img src="${relativePath}/images/menu_sourcecode.gif" border="0"/></a><img src="${relativePath}/images/menu_separator.gif" width="2" height="24"/><a href="http://datanucleus.blogspot.com"><img src="${relativePath}/images/menu_blog.gif" border="0"/></a>
             </div>
           </td>
         </tr>
@@ -354,10 +353,10 @@ function loadPage(list)
           <form>Quick Link
             <select name="quickLink" onChange="loadPage(this.form.elements[0])" target="_parent._top" onmouseclick="this.focus()" method="POST">
             <option value="http://www.datanucleus.org"></option>
+            <option value="http://www.datanucleus.org/download.html">Download</option>
             <option value="http://www.datanucleus.org/support.html">Support</option>
             <option value="http://www.datanucleus.org/documentation/donations.html">Donate</option>
             <option value="http://www.datanucleus.org/documentation/problem_reporting.html">Problem Reporting</option>
-            <option value="http://www.datanucleus.org/project/download.html">Download</option>
             <option value="http://www.datanucleus.org/documentation/products/accessplatform.html">DataNucleus AccessPlatform</option>
             <option value="http://www.datanucleus.org/documentation/products/plugins.html">DataNucleus Plugins</option>
             <option value="http://www.datanucleus.org/documentation/development/sourcecode.html">Source Code</option>
