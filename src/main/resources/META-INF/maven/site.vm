@@ -308,13 +308,6 @@ function loadPage(list)
   </head>
 
   <body class="composite">
-    #set ( $categoryStart = $headContent.indexOf("category") )
-    #set ( $contentStart = $headContent.indexOf("content", $categoryStart) )
-    #set ( $contentPos1 = $headContent.indexOf('"', $contentStart) +1)
-    #set ( $contentPos2 = $headContent.indexOf('"', $contentPos1) )
-    #set ( $pageCategory = $StringUtils.substring($headContent, $contentPos1, $contentPos2) )
-    ## Make use of pageCategory in deciding which menus to use
-
     <div id="header">
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
@@ -338,7 +331,7 @@ function loadPage(list)
 
       <div id="navigation">
       <table border="0" cellspacing="0" cellpadding="0" width="100%" height="30">
-        <!-- AccessPlatform version header, search, and "links" section of navigation.xml -->
+        <!-- search, and "links" section of navigation.xml -->
         <tr>
           <td valign="middle" align="left" nowrap="true" width="100%">
           </td>
@@ -369,9 +362,7 @@ function loadPage(list)
     </div>
 
     <div id="bodyColumn">
-      <div id="contentBox">
-        $bodyContent
-      </div>
+      $bodyContent
     </div>
     <div class="clear">
       <hr/>
