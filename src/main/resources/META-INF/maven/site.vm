@@ -365,7 +365,6 @@ function loadPage(list)
           </td>
         </tr>
       </table>
-      <hr/>
     </div>
 
     <div id="bodyColumn">
