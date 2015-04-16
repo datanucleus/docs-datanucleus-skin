@@ -2,6 +2,77 @@
  * Copyright 2008 DataNucleus. All Rights Reserved.
  */
 
+.frontpage1
+{
+    background-color: #2385c6;
+    color: white;
+    font-family: lucida grande, geneva, verdana, Helvetica, Courier New, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.frontpage2
+{
+    background-color: #97d5ca;
+    color: black;
+    font-family: lucida grande, geneva, verdana, Helvetica, Courier New, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.frontpage_textlarge
+{
+    font-size: 26px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.frontpage_textmedium
+{
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.frontpage_textsmall
+{
+    font-size: 14px; 
+    font-weight: normal;
+    text-align: center;
+}
+
+.frontpage_textvsmall
+{
+    font-size: 12px; 
+    font-weight: normal;
+    text-align: center;
+}
+
+.frontpage_largetext
+{
+    color: white;
+    font-family: lucida grande, geneva, verdana, Helvetica, Courier New, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px; 
+}
+
+.frontpage_mediumtext
+{
+    color: white;
+    font-family: lucida grande, geneva, verdana, Helvetica, Courier New, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px; 
+}
+
 /** Overall layout of the page - wider margin at sides, white background. */
 #layout
 {
